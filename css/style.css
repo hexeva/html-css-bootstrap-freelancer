@@ -186,6 +186,17 @@ header{
     margin: auto;
 }
 
+/* FOOTER */
+
+footer{
+    background-color:#4e657c;
+    color: white;
+}
+
+.box-text-footer{
+    text-align: center;
+}
+
 
 
 
