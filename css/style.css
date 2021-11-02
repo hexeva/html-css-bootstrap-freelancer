@@ -12,6 +12,7 @@ img{
 
 body{
     color: white;
+    
 }
 
 
@@ -63,9 +64,50 @@ header{
     text-align: right;
     font-size: 20px;
 }
+/* end header */
+
+/* MAIN */
+
+.jumbotron{
+    background-color:#2f9b78;
+    padding: 20px 0;
+}
+
+.jumbo-contents{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+.img-container{
+    width: 200px;
+    margin: auto;
+    
+}
+
+.jumbo-title{
+    margin: 10px 0;
+    padding: 10px 0;
+    border-bottom: 2px solid white;
+}
+.jumbo-description{
+    margin: 10px 0;
+    padding: 20px 0;
+
+
+}
+
+
 
 
 
 
 
 /* MEDIA QUEries */
+
+@media screen and (min-width:768px){
+    .header-title{
+        text-align: center;
+    }
+    
+}
