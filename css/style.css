@@ -10,10 +10,6 @@ img{
     height: auto;
 }
 
-body{
-    color: white;
-    
-}
 
 
 
@@ -48,6 +44,7 @@ a{
 header{
     background-color:#1b1b30;
     padding: 25px 0;
+    color: white;
 }
 
 .burger-menu{
@@ -67,6 +64,10 @@ header{
 /* end header */
 
 /* MAIN */
+
+.start{
+    color: white;
+}
 
 .jumbotron{
     background-color:#2f9b78;
@@ -94,9 +95,24 @@ header{
     margin: 10px 0;
     padding: 20px 0;
 
-
 }
 
+/* Portfolio */
+
+.porfolio-title{
+    width: 50%;
+    padding: 30px 0;
+    text-align: center;
+    margin: auto;
+}
+
+.portfolio-title h2{
+    color: black;
+}
+
+.row-wrap{
+    padding: 20px 0;
+}
 
 
 
