@@ -17,7 +17,7 @@ img{
 /* COMMON */
 
 .my-wrapper{
-    width: 98%;
+    width: 80%;
     margin: auto;
 }
 
@@ -65,12 +65,14 @@ header{
 
 /* MAIN */
 
-.start{
+.start,
+.about{
     color: white;
+    background-color:#2f9b78;
 }
 
 .jumbotron{
-    background-color:#2f9b78;
+    
     padding: 20px 0;
 }
 
@@ -114,6 +116,16 @@ header{
     padding: 20px 0;
 }
 
+/* about */
+
+
+
+.about-title{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 30px 0;
+}
 
 
 
