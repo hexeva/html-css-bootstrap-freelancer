@@ -1,6 +1,71 @@
 /* RESET*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 img{
     width: 100%;
     height: auto;
 }
 
+body{
+    color: white;
+}
+
+
+
+
+/* COMMON */
+
+.my-wrapper{
+    width: 98%;
+    margin: auto;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+
+
+
+
+
+/* header */
+
+header{
+    background-color:#1b1b30;
+    padding: 25px 0;
+}
+
+.burger-menu{
+    font-size: 12px;
+    text-align: center;
+}
+
+.burger-menu ul li{ 
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.burger{
+    text-align: right;
+    font-size: 20px;
+}
+
+
+
+
+
+/* MEDIA QUEries */
