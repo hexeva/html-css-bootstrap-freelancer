@@ -17,7 +17,7 @@ img{
 /* COMMON */
 
 .my-wrapper{
-    width: 80%;
+    width: 60%;
     margin: auto;
 }
 
@@ -124,8 +124,25 @@ header{
     width: 50%;
     margin: auto;
     text-align: center;
-    padding: 30px 0;
+    padding: 50px 0;
 }
+
+.btn{
+ 
+    min-width: 100px;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 6px 20px;
+    margin: auto;
+}
+
+.btn-wrap{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 50px 0;
+}
+
 
 
 
