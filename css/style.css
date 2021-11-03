@@ -173,7 +173,7 @@ header{
    
 }
 
-.btn{
+.botton_container{
  
     min-width: 100px;
     display: inline-block;
@@ -185,7 +185,7 @@ header{
     
 }
 
- .btn-wrap{ 
+ .btn_wrap{ 
     width: 100%;
     margin: auto;
     text-align: center;
@@ -210,23 +210,24 @@ header{
     padding: 20px 0;
 }
 
-input[type="text"]{
+.references input[type="text"],
+.references input[type="email"],
+.references textarea {
     border-top: 0;
     border-left: 0;
     border-right: 0;
-    box-shadow: none;
     padding-bottom: 20px;
     font-size: 18px;
 }
 
-.btn-send{
-    display:inline-block;
-    line-height: normal;
-    background-color:#2f9b78;
-    border-radius: 7px;
-    padding: 12px 14px;
-    margin: auto;
-    text-align: center;
+.form-control:focus{
+    box-shadow: none;
+}
+
+.send{
+   background-color: #1abc9c;
+   color: white;
+   
 }
 
 /* FOOTER */
