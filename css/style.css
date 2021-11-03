@@ -114,7 +114,15 @@ header{
 .line{
     width: 80px;
     height: 3px;
+    
+}
+
+.line_white{
     background-color: white;
+}
+
+.line_black{
+    background-color: black;
 }
 
 
@@ -132,11 +140,11 @@ header{
 /* Portfolio */
 
 .porfolio-title{
-    width: 50%;
+    width: 100%;
     padding: 30px 0;
     text-align: center;
     margin: auto;
-    border-bottom: 2px solid black;
+  
 }
 
 .portfolio-title h2{
@@ -158,11 +166,11 @@ header{
 
 
 .about-title{
-    width: 50%;
+    width: 100%;
     margin: auto;
     text-align: center;
     padding: 30px 0;
-    border-bottom: 2px solid black;
+   
 }
 
 .btn{
@@ -191,31 +199,24 @@ header{
 /* COntact */
 
 .contact-title{
-    width: 85%;
+    width: 100%;
     margin: auto;
     text-align: center;
     padding: 30px 0;
-    border-bottom: 2px solid black;
+    
 }
 
 .references{
     padding: 20px 0;
 }
 
-.references ul li{
-
-    padding-bottom: 15px;
-    border-bottom: 1px solid grey;
-
-}
-
-.references ul {
-    width: 100%;
-}
-
-.references ul li:last-child{
-
-    padding-bottom: 120px;
+input[type="text"]{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    box-shadow: none;
+    padding-bottom: 20px;
+    font-size: 18px;
 }
 
 .btn-send{
