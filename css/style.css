@@ -10,7 +10,9 @@ img{
     height: auto;
 }
 
-
+body{
+    font-size: 13px;
+}
 
 
 
@@ -19,6 +21,7 @@ img{
 .my-wrapper{
     width: 60%;
     margin: auto;
+    max-width: 1000px;
 }
 
 ul{
@@ -33,6 +36,8 @@ a{
     color: white;
     
 }
+
+
 
 
 
@@ -68,7 +73,7 @@ header{
 .start,
 .about{
     color: white;
-    background-color:#2f9b78;
+    background-color:#1abc9c;
 }
 
 .jumbotron{
@@ -77,7 +82,7 @@ header{
 }
 
 .jumbo-contents{
-    width: 60%;
+    width: 100%;
     margin: auto;
     text-align: center;
 }
@@ -91,8 +96,33 @@ header{
 .jumbo-title{
     margin: 10px 0;
     padding: 10px 0;
-    border-bottom: 2px solid white;
+    
 }
+
+.star_container{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.star{
+    margin: 0 10px;
+}
+
+.line{
+    width: 80px;
+    height: 3px;
+    background-color: white;
+}
+
+
+
+    
+
+
+
 .jumbo-description{
     margin: 10px 0;
     padding: 20px 0;
@@ -117,6 +147,12 @@ header{
     padding: 20px 0;
 }
 
+
+
+.images img{
+    border-radius: 10px;
+}
+
 /* about */
 
 
@@ -138,13 +174,18 @@ header{
     border-radius: 5px;
     padding: 6px 20px;
     margin: auto;
+    
 }
 
-.btn-wrap{
-    width: 75%;
+ .btn-wrap{ 
+    width: 100%;
     margin: auto;
     text-align: center;
     padding: 50px 0;
+}
+
+.box-text{
+    padding: 20px 0;
 }
 
 /* COntact */
@@ -178,23 +219,30 @@ header{
 }
 
 .btn-send{
-    display: inline-block;
+    display:inline-block;
     line-height: normal;
     background-color:#2f9b78;
     border-radius: 7px;
     padding: 12px 14px;
     margin: auto;
+    text-align: center;
 }
 
 /* FOOTER */
 
 footer{
-    background-color:#4e657c;
+
     color: white;
+    padding-top: 20px;
+}
+
+.footer-top{
+    background-color:#4e657c;
 }
 
 .box-text-footer{
     text-align: center;
+    padding: 20px 0;
 }
 
 
